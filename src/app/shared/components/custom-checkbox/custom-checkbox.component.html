@@ -1,0 +1,7 @@
+<label class="inline-flex items-center gap-3 cursor-pointer select-none">
+  <input type="checkbox" class="sr-only peer" [checked]="checked()" (change)="toggle($event)" />
+  <div class="w-11 h-6 rounded-full bg-zinc-300 dark:bg-zinc-700 relative transition peer-checked:bg-emerald-500">
+    <span class="absolute top-0.5 left-0.5 w-5 h-5 bg-white dark:bg-zinc-900 rounded-full shadow transition-transform peer-checked:translate-x-5"></span>
+  </div>
+  <span class="text-sm">শর্তাবলীতে সম্মতি</span>
+</label>
